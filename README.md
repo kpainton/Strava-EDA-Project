@@ -8,9 +8,9 @@ This project had two primary research questions:
 
 To address this question, we created an "intensity score", that was loosely based off TSS and rTSS (Training stress scores).  
 
-Our formula was as follows: $(ElapsedTime(s) * NP * NP/FTP)$ $/$ $(ElapsedTime(s) * FTP$) $ * Total Distance (m)$
-- $NP$ stands for normalized power and was calculated as: Average speed (m/s) * (Elevation Gain / Total Distance)
-- $FTP$ stands for Power Threshold and was calculated as: Max Speed (m/s) * (Elevation Gain / Total Distance)
+Our formula was as follows: (ElapsedTime(s) * NP * NP/FTP) / (ElapsedTime(s) * FTP) * Total Distance (m)
+- NP stands for normalized power and was calculated as: Average speed (m/s) * (Elevation Gain / Total Distance)
+- FTP stands for Power Threshold and was calculated as: Max Speed (m/s) * (Elevation Gain / Total Distance)
 
 2) Which countries have the most efficient bike workouts when considering the workout time, moving time, and kilojoules burned. 
 
